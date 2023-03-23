@@ -1,6 +1,6 @@
 # Keystone Docker
 
- Configuring keystone to use for sodafoundation.
+ Configuring keystone (zed version) to use for sodafoundation.
 
 ## Steps to use
 
