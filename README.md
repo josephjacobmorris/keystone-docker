@@ -5,6 +5,16 @@
 ## Steps to use
 
 * Replace HOST_IP and OS_AUTH_URL environment variable in docker-compose.yml with your IP address starting with 192.x.x.x
+* This will bring up an instance of keystone with credentials
+```
+      HOST_IP: "192.168.1.4"
+       OS_AUTH_URL: "http://192.168.1.4:5000/v3"
+       OS_USERNAME: admin
+       OS_PASSWORD: "opensds#123"
+       OS_PROJECT_NAME: admin
+       OS_USER_DOMAIN_NAME: Default
+       OS_PROJECT_DOMAIN_NAME: Default
+```
 
 ### For those who are referring to build their own docker container
 
